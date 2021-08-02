@@ -1,5 +1,6 @@
 package ar.com.unlam.itercorpappchallenge
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -31,7 +32,12 @@ class CreacionClienteActivity : AppCompatActivity() {
     private fun setListeners() {
         buttonLogOut.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-            onBackPressed()
+            val intent = Intent(
+                this,
+                MainActivity::class.java
+            )
+            startActivity(intent)
+            finish()
         }
 
         button_crear_cliente.setOnClickListener {
