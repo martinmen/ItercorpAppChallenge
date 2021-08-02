@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317223513185",
+    "project_id": "intercorp-app-challenge",
+    "storage_bucket": "intercorp-app-challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317223513185:android:22cac88c8ed7584a4ece20",
+        "android_client_info": {
+          "package_name": "ar.com.unlam.itercorpappchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317223513185-dv8p1av02e7ta8b3es0m2km6qp54m9gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_YxLmHZvTUdDY8AhyOyy7FwEZ5VeUGMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317223513185-dv8p1av02e7ta8b3es0m2km6qp54m9gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
